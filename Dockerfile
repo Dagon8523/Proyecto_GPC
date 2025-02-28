@@ -25,4 +25,4 @@ COPY . .
 EXPOSE 8000
  
 # Comando para iniciar la API
-CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "api_1:app", "--host", "0.0.0.0", "--port", "8000"]
